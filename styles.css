@@ -1,23 +1,57 @@
-a, .hero-secondary {
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
-}
-
-.header-logo {
-    color: #f9faf8;
-    font-size: 24px;
-}
-
-.hero-main {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 900;
+    padding-left: 20px;
 }
 
 .section1 {
     color: white;
     background-color: #1f2937;
+    padding: 10px 100px 100px 100px;
+}
+
+.nav-section {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-text-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text-secondary {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-image {
+    background-color: #666;
+    width: 800px;
+    height: 150px;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    border-radius: 2px;
+    margin-left: 20px;
 }
 
 .section2 > img {
@@ -37,8 +71,14 @@ a, .hero-secondary {
     background-color: #3882f6;
     color: white;
     border-width: 1px;
-    border-radius: 3px;
+    border-radius: 5px;
     border-style: solid;
+    border-color: #3882f6;
+    padding: 5px 20px;
+}
+
+.sign-up-button-hero {
+    margin-top: 10px;
 }
 
 .sign-up-button-cta {
@@ -48,4 +88,5 @@ a, .hero-secondary {
 .footer {
     color: white;
     background-color: #1f2937;
+    text-align: center;
 }
